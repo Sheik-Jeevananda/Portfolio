@@ -1,0 +1,22 @@
+import { useEffect, useRef, useState } from "react";
+
+export function useIntersection(threshold = 0.2): [React.RefObject<HTMLDivElement>, boolean] {
+  const ref = useRef<HTMLDivElement>(null!);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [threshold]);
+
+  return [ref, visible];
+}
