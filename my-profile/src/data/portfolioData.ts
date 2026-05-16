@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     id: 2,
     title: "Paytm",
     description:
-      "It's Sample MERN Stack App . Understanded How API's Workd.",
+      "It's Sample MERN Stack App . Understanded How API's Works.",
     tags: ["Node.js", "MongoDB", "Express.js", "React.js"],
     gradientFrom: "from-violet-500",
     gradientTo: "to-purple-700",
