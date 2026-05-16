@@ -11,7 +11,7 @@ const Hero: React.FC = () => (
   >
     {/* Profile photo circle */}
     <div className="relative mb-8">
-      <div className="w-38 h-38 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-cyan-500/30 shadow-[0_0_40px_rgba(6,182,212,0.15)]">
+      <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-cyan-500/30 shadow-[0_0_40px_rgba(6,182,212,0.15)]">
         <img src={profilePhoto} alt="Profile" className="w-full h-full object-cover" />
       </div>
       {/* Ping ring */}
@@ -41,7 +41,7 @@ const Hero: React.FC = () => (
       <span className="text-xl md:text-2xl font-display font-black text-cyan-400">Developer</span>
       <span className="text-white/15 font-light">×</span>
       <span className="text-xl md:text-2xl font-display font-semibold text-white/30">MERN</span>
-      <span className="text-xl md:text-2xl font-display font-black text-violet-400">Specialist</span>
+      <span className="text-xl md:text-2xl font-display font-black text-violet-400">Stack</span>
     </div>
 
     <p className="max-w-lg text-white/40 text-sm md:text-base leading-relaxed mb-12 font-body">
