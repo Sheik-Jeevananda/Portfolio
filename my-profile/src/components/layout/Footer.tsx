@@ -47,7 +47,7 @@ const Footer: React.FC = () => (
       </div>
 
       <p className="text-white/20 text-xs font-mono">
-        © {new Date().getFullYear()} Your Name. All rights reserved.
+        © {new Date().getFullYear()} . All rights reserved.
       </p>
     </div>
   </footer>
