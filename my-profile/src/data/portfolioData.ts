@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
     emoji: "📋",
     status: "Coming Soon",
     githubUrl: "https://github.com/Sheik-Jeevananda/Primetrade-ai-.git",
-    liveUrl: "#",
+    liveUrl: "https://primetrade-ai-rho.vercel.app/",
   },
 ];
 
