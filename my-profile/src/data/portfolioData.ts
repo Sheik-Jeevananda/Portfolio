@@ -65,15 +65,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: "Saas Application",
+    title: "Task Management",
     description:
-      "A SaaS dashboard for data visualization. Users can upload datasets and create interactive charts. Built with React, Express, MySQL, and Chart.js.",
-    tags: ["React", "Express", "MySQL", "Chart.js"],
+      "A simple Task Management Application Where We can Manage Our Tasks. ",
+    tags: ["React", "Express", "MongoDB", "Node.js"],
     gradientFrom: "from-emerald-500",
     gradientTo: "to-teal-600",
     emoji: "📋",
     status: "Coming Soon",
-    githubUrl: "https://github.com/Sheik-Jeevananda/Blog.git",
+    githubUrl: "https://github.com/Sheik-Jeevananda/Primetrade-ai-.git",
     liveUrl: "#",
   },
 ];
@@ -81,7 +81,7 @@ export const PROJECTS: Project[] = [
 export const DSA_PROFILES: DsaProfile[] = [
   {
     platform:       "LeetCode",
-    username:       "@your_handle",
+    username:       "Sheik-Jeevanada",
     emoji:          "🧩",
     problemsSolved: "250+",
     url:            "https://leetcode.com/u/Sheik_Jeevananda/",
@@ -90,13 +90,22 @@ export const DSA_PROFILES: DsaProfile[] = [
   },
   {
     platform:       "Naukri Code 360",
-    username:       "@your_handle",
+    username:       "Sheik-Jeevananda",
     emoji:          "🏆",
     problemsSolved: "150+",
     url:            "https://www.naukri.com/code360/profile/81fd5b40-f8c8-4862-aaf3-164676d0bb57",
     accentFrom:     "from-blue-400",
     accentTo:       "to-indigo-600",
   },
+  {
+    platform:       "Geek for Geeks",
+    username:       "Sheik Jeevannda",
+    emoji:          "🏆",
+    problemsSolved: "20+",
+    url:            "https://www.geeksforgeeks.org/profile/sheikjee5aow?tab=activity",
+    accentFrom:     "from-blue-400",
+    accentTo:       "to-indigo-600",
+  }
 ];
 
 export const DSA_TOPICS: string[] = [
