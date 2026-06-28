@@ -76,6 +76,20 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Sheik-Jeevananda/Primetrade-ai-.git",
     liveUrl: "https://primetrade-ai-rho.vercel.app/",
   },
+
+  {
+    id: 4,
+    title: "AI Study Planner",
+    description:
+      "Open AI Project , which will Generate Study Plan on Syllabus pdf ",
+    tags: ["React", "Express", "MongoDB", "Node.js" , "Open AI"],
+    gradientFrom: "from-emerald-500",
+    gradientTo: "to-teal-600",
+    emoji: "📋",
+    status: "Coming Soon",
+    githubUrl: "https://github.com/Sheik-Jeevananda/AI-Study-Planner",
+    liveUrl: "#",
+  },
 ];
 
 export const DSA_PROFILES: DsaProfile[] = [
