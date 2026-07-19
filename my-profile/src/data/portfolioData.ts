@@ -87,7 +87,7 @@ export const PROJECTS: Project[] = [
     gradientTo: "to-teal-600",
     emoji: "📋",
     status: "Coming Soon",
-    githubUrl: "https://github.com/Sheik-Jeevananda/AI-Study-Planner",
+    githubUrl: "https://ai-study-planner-two-rosy.vercel.app/",
     liveUrl: "#",
   },
 ];
