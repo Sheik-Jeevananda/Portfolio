@@ -47,8 +47,8 @@ export const PROJECTS: Project[] = [
     gradientTo: "to-blue-600",
     emoji: "💬",
     status: "Coming Soon",
-    githubUrl: "https://social-web-app-sage.vercel.app/",
-    liveUrl: "#",
+    githubUrl: "https://github.com/Sheik-Jeevananda/Social-Web-App",
+    liveUrl: "https://social-web-app-sage.vercel.app/",
   },
   {
     id: 2,
@@ -75,8 +75,8 @@ export const PROJECTS: Project[] = [
     gradientTo: "to-teal-600",
     emoji: "📋",
     status: "Coming Soon",
-    githubUrl: "https://ai-study-planner-two-rosy.vercel.app/",
-    liveUrl: "#",
+    githubUrl: "https://github.com/Sheik-Jeevananda/AI-Study-Planner.git",
+    liveUrl: "https://ai-study-planner-two-rosy.vercel.app/",
   },
 ];
 
