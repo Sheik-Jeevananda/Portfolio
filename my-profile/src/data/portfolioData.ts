@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     gradientTo: "to-blue-600",
     emoji: "💬",
     status: "Coming Soon",
-    githubUrl: "https://github.com/Sheik-Jeevananda/social-media-app.git",
+    githubUrl: "https://social-web-app-sage.vercel.app/",
     liveUrl: "#",
   },
   {
@@ -63,22 +63,10 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Sheik-Jeevananda/paytm-app.git",
     liveUrl: "#",
   },
-  {
-    id: 3,
-    title: "Task Management",
-    description:
-      "A simple Task Management Application Where We can Manage Our Tasks. ",
-    tags: ["React", "Express", "MongoDB", "Node.js"],
-    gradientFrom: "from-emerald-500",
-    gradientTo: "to-teal-600",
-    emoji: "📋",
-    status: "Coming Soon",
-    githubUrl: "https://github.com/Sheik-Jeevananda/Primetrade-ai-.git",
-    liveUrl: "https://primetrade-ai-rho.vercel.app/",
-  },
+  
 
   {
-    id: 4,
+    id: 3,
     title: "AI Study Planner",
     description:
       "Open AI Project , which will Generate Study Plan on Syllabus pdf ",
